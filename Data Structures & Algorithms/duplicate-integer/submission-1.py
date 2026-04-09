@@ -5,5 +5,5 @@ class Solution:
             if num in dict1:
                 return True
             else:
-                dict1[num] = 0
+                dict1[num] = 1
         return False
